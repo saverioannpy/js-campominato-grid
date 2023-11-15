@@ -1,0 +1,35 @@
+/* Reset */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Debug */
+
+header,footer{
+    background-color: lightseagreen;
+}
+
+
+
+/* Common */ 
+
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+main .game-grid{
+    background-color: #7fffd4;
+}
