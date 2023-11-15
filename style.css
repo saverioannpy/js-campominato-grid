@@ -28,8 +28,29 @@ main{
     justify-content: center;
     align-items: center;
     flex-grow: 1;
+    background-color: #7fffd4;
 }
 
 main .game-grid{
-    background-color: #7fffd4;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    background-color: white;
+    width: 600px;
+    height: 600px;
+
+}
+
+main .game-grid .cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+
+main .game-grid .cell.easy{
+    height: calc(100%/10);
+    width: calc(100%/10);
 }
