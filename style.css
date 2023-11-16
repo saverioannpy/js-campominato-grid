@@ -105,3 +105,13 @@ main .game-grid .cell.easy{
     height: calc(100%/10);
     width: calc(100%/10);
 }
+
+main .game-grid .cell.medium{
+    height: calc(100%/9);
+    width: calc(100%/9);
+}
+
+main .game-grid .cell.hard{
+    height: calc(100%/7);
+    width: calc(100%/7);
+}
